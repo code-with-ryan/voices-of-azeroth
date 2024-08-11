@@ -1,0 +1,5 @@
+## Interface: 100100
+## Title: Voices of Azeroth
+## Version: 1.0
+## Author: code-with-ryan
+voices_of_azeroth.lua
