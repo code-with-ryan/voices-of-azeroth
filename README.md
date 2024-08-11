@@ -62,6 +62,25 @@
 - **Contributions**: Contributions to the addon are welcome. If you find any bugs or have feature requests, please submit an issue or pull request on the project's repository.
 - **Debugging**: The addon includes debug statements that print information about events and audio playback. These can be useful for troubleshooting issues.
 
+## Contributing
+
+We welcome contributions to the Voices of Azeroth addon! If you have suggestions or improvements, please follow these guidelines:
+
+1. **Fork the Repository:** Create a personal copy of the repository by forking it on GitHub.
+2. **Clone Your Fork:** Clone your forked repository to your local machine to make changes.
+3. **Create a Branch:** Create a new branch for your changes to keep the main branch clean.
+4. **Make Changes:** Implement your changes and improvements. Ensure your code follows the project's coding standards and passes all tests.
+5. **Commit Changes:** Commit your changes with clear, descriptive commit messages.
+6. **Push Changes:** Push your changes to your forked repository on GitHub.
+7. **Submit a Pull Request:** Open a pull request from your branch to the main repository. Describe the changes you made and any relevant details.
+
+### Audio Contributions
+
+For audio clips, we encourage using ElevenLabs AI for creating or enhancing quest audio. You can find more information and tools at [ElevenLabs](https://elevenlabs.io/). Ensure that any audio files you contribute are in the correct format and properly mapped to the relevant quest IDs.
+
+Thank you for contributing!
+
+
 ## License
 
 This addon is released under the [MIT License](LICENSE).
