@@ -27,20 +27,25 @@
 
 ## Configuration
 
-1. **Add Quest Audio**: Modify the `questAudioMap` table in the `voices_of_azeroth.lua` file to include the quests and corresponding audio files you want to use.
-    ```lua
-    local questAudioMap = {
-        [29941] = "quest_29941_objective.mp3",
-        -- Add more quests and their audio files here
-    }
-    ```
-2. **Get Quest IDs from Wowhead**:
-    - Go to [Wowhead's Quest Database](https://www.wowhead.com/quests).
-    - Search for the quest you want to add audio for.
-    - Find the quest ID in the URL of the quest page. For example, if the URL is `https://www.wowhead.com/quest=29941`, the quest ID is `29941`.
-    - Add this quest ID and the corresponding audio file name to the `questAudioMap` table.
+1. **Add Quest Audio**:
+    - Open the `voices_of_azeroth.lua` file located in the `voices_of_azeroth` folder.
+    - Locate the `questAudioMap` table in the file.
+    - Add the quest IDs and corresponding audio file names for the quests you want to provide audio for. The format should be:
+      ```lua
+      local questAudioMap = {
+          [QuestID] = "audio_file_name.mp3",
+          -- Add more quests and their audio files here
+      }
+      ```
+    - To get the quest IDs:
+        - Visit [Wowhead's Quest Database](https://www.wowhead.com/quests).
+        - Search for the quest you want to add audio for.
+        - Find the quest ID in the URL of the quest page. For example, if the URL is `https://www.wowhead.com/quest=29941`, the quest ID is `29941`.
+        - Add this quest ID and the corresponding audio file name to the `questAudioMap` table in the format shown above.
 
-3. **Audio Files**: Place your audio files in the `voices` directory within the addon folder. Ensure the file paths and names match those defined in `questAudioMap`.
+2. **Audio Files**:
+    - Place your audio files in the `voices` directory within the addon folder.
+    - Ensure the file names and paths match those defined in the `questAudioMap` table.
 
 ## Usage
 
