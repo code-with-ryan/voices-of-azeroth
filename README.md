@@ -34,7 +34,13 @@
         -- Add more quests and their audio files here
     }
     ```
-2. **Audio Files**: Place your audio files in the `voices` directory within the addon folder. Ensure the file paths and names match those defined in `questAudioMap`.
+2. **Get Quest IDs from Wowhead**:
+    - Go to [Wowhead's Quest Database](https://www.wowhead.com/quests).
+    - Search for the quest you want to add audio for.
+    - Find the quest ID in the URL of the quest page. For example, if the URL is `https://www.wowhead.com/quest=29941`, the quest ID is `29941`.
+    - Add this quest ID and the corresponding audio file name to the `questAudioMap` table.
+
+3. **Audio Files**: Place your audio files in the `voices` directory within the addon folder. Ensure the file paths and names match those defined in `questAudioMap`.
 
 ## Usage
 
