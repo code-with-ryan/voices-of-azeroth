@@ -1,5 +1,7 @@
 -- Table mapping quest IDs to their audio files
 local questAudioMap = {
+    [29730] = "quest_29730_description.mp3",
+    [29731] = "quest_29731_description.mp3",
     [29941] = "quest_29941_description.mp3",
     [29937] = "quest_29937_description.mp3",
     [29939] = "quest_29939_description.mp3",
