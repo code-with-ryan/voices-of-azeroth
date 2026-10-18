@@ -76,10 +76,13 @@ We welcome contributions to the Voices of Azeroth addon! If you have suggestions
 
 ### Audio Contributions
 
-For audio clips, we encourage using ElevenLabs AI for creating or enhancing quest audio. You can find more information and tools at [ElevenLabs](https://elevenlabs.io/). Ensure that any audio files you contribute are in the correct format and properly mapped to the relevant quest IDs.
+We encourage talented voice artists to submit their own voices.
+
+You can also use ElevenLabs AI for creating or enhancing quest audio. You can find more information and tools at [ElevenLabs](https://elevenlabs.io/). 
+
+Ensure that any audio files you contribute are in the correct format and properly mapped to the relevant quest IDs. If you are adding voiceover for a particular character, please note that in the characters.txt file.
 
 Thank you for contributing!
-
 
 ## License
 
